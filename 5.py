@@ -2,7 +2,7 @@ import sys, string, math
 
 def Count_char(Laa, nee) :
     c = [0] * (nee+1)
-    c0] = 1
+    c[0] = 1
     c[1] = 1
     for i in range(2,nee+1) :
         c[i] = 0
