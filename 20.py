@@ -4,7 +4,7 @@ cak=0
 ken=[]
 for i in range(sp,bh+1):
         lac.append(bin(i)[2::])
-for i in range(0,len(lac*/)):
+for i in range(0,len(lac)):
         ken.append(lac[i].count("1"))
  
 for i in range(0,len(ken)):
