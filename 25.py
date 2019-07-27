@@ -34,4 +34,4 @@ urn,van=map(eval,input().split())
 RS=Node1(val[0])
 for i in range(1,bhav):
   insert(RS,val[i])
-print(LCA(R,urn,van))
+print(LCA(RS,urn,van))
