@@ -10,7 +10,7 @@ for i in range(net+1):
   else:
     sek="0"
     for j in range(net):
-      sek=sek+str(x[i-1][j])
+      sek=sek+str(xin[i-1][j])
     rest.append(list(sek+"0"))
 rest.append(list("0"*(net+2)))
 for i in range(len(rest)):
