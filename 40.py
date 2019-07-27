@@ -1,0 +1,9 @@
+bh=input()
+lia=list(map(int,bh))
+nee=sum(lia)
+nee=str(nee)
+rev=nee[::-1]
+if(nee==rev):
+    print("YES")
+else:
+    print("NO")
