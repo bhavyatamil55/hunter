@@ -17,5 +17,5 @@ else:
 		if sp[i]=="a":
 			las.append(cak)
 		else:
-			las.append(c-1)
+			las.append(cak-1)
 	print(max(las))
